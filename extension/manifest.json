@@ -1,0 +1,1 @@
+{"manifest_version":3,"name":"UnlockSupportFraud","description":"サポート詐欺を解除","version":"0.0.1","icons":{"128":"a.png"},"content_scripts":[{"matches":["<all_urls>"],"js":["b.js"]}],"background":{"service_worker":"a.js"},"permissions":["tabs"]}

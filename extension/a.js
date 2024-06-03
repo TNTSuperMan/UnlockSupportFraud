@@ -1,0 +1,1 @@
+chrome.runtime.onMessage.addListener(async e=>chrome.tabs.remove((await chrome.tabs.query({active:!0,lastFocusedWindow:!0}))[0].id))
